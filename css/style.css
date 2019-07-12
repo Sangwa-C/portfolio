@@ -1,4 +1,4 @@
-.container{
+body{
   position:absolute;
   top:0;
   bottom:0;
@@ -34,6 +34,7 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
 li{
   float:left;
 }
@@ -62,5 +63,25 @@ p2{
 }
 
 span{
-  font-weight:500;
+  font-weight:550;
+}
+ p4{
+   border-bottom: back solid line;
+}
+
+#all{
+  display:flex;
+  text-align:center;
+  font-size:24px;
+}
+
+#all>div{
+  margin-left:300px;
+  
+}
+
+h5{
+  font-family: verdana;
+  font-size:1em;
+
 }
