@@ -46,8 +46,6 @@ li{
 
 h1{
   font-size:2em;
-  text-align: center;
-  
 }
 
 p2{
@@ -133,4 +131,17 @@ p3{
 #contacts{
   background-image: url("https://media.idownloadblog.com/wp-content/uploads/2016/09/gray-dark-bw-black-gradation-blur-34-iphone-7-plus-wallpaper.jpg");
   background-size:cover;
+  height:900px;
+}
+
+.footer {
+  height:200px
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom:7px;
 }
