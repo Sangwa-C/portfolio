@@ -22,6 +22,17 @@ ul {
    
 }
 
+#homepage{
+  background-image: url("http://badg.us/wp-content/uploads/2019/04/close-up-code-coding-160107.jpg");
+  background-size:cover;
+  background-repeat: repeat;
+  height:900px;
+}
+
+
+
+
+
 li a {
   display: block;
   color: #000;
@@ -40,8 +51,14 @@ li{
 }
 
 .home{
-  padding-top:50px
   
+  float:right;
+  width:70%
+  right:0;
+  top:150px;
+  padding-top:170px;
+  margin-right:350px;
+  color:white;
 }
 
 h1{
@@ -49,15 +66,18 @@ h1{
 }
 
 p2{
-  font-family:"cursive"
-  line-height:1.5;
+  font-family:"cursive";
+  line-height:1.5px;
   font-size:16px;
+
 }
 
 .image{
   margin-right:50px;
   width:200px;
   border-radius: 50%;
+  margin-top:150px;
+  margin-left:150px;S
 }
 
 span{
