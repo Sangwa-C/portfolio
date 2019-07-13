@@ -177,3 +177,48 @@ p3{
 }
 
 
+#projects{
+  display:flex;
+  flex-wrap: nowrap;
+  box-sizing:border-box;
+  justify-content:space-between;
+  text-align:center;
+  font-size:24px;
+  margin-left:300px;
+  margin-top: 100px;
+  width:60%;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  border-style: dashed#BFBFBF ;
+  
+
+}
+div>.projects>a{
+  color:#57572D;
+  background-color:#B1B1B0;
+  border-radius: 40px;
+  width:120px;
+  font-size:0.70em;
+  height:60px;
+  text-decoration: none;
+}
+#project>div{
+  padding-left:20px;
+  justify-content: justfy;
+  height:400px;
+  width:700px;
+}
+
+a:hover{
+  background-color:rgb(153, 153, 153);
+}
+
+div .project{
+  padding:10px;
+  margin:10px;
+  box-sizing: border-box;
+  width: 50%;
+  box-shadow: 0px 5px 5px 5px #555;
+  
+
+}
