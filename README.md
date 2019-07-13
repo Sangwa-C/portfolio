@@ -7,7 +7,7 @@
 * Connect to the internet
 * open your browser
 * type this link this browser
-* 
+* https://sangwa-c.github.io/portfolio/
 * it is opened
 
 ## Known Bugs
