@@ -4,29 +4,34 @@ body{
   bottom:0;
   left:0;
   right:0;
-  padding:30px;
+  
   background-color: #f2f2f2;
+}
+
+.container{
+  padding:30px;
 }
 
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: o;
   width: 100%;
-  background-color: #d8d8d8;
   height:50px;
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 600;
 
    
 }
 
 #homepage{
-  background-image: url("http://badg.us/wp-content/uploads/2019/04/close-up-code-coding-160107.jpg");
+  background-image: url("https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 1x, https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 2x");
   background-size:cover;
   background-repeat: repeat;
-  height:900px;
+  height:1000px;
+  width:100%;
+
 }
 
 
@@ -35,9 +40,10 @@ ul {
 
 li a {
   display: block;
-  color: #000;
+  color:#CCCCCB;
   padding: 8px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 
@@ -51,24 +57,21 @@ li{
 }
 
 .home{
-  
-  float:right;
-  width:70%
+  text-align: center;
+  width:100%;
   right:0;
-  top:150px;
-  padding-top:170px;
-  margin-right:350px;
-  color:white;
+  color:whitesmoke;
+  margin-top: 300px;
 }
 
 h1{
-  font-size:2em;
+  font-size:2.75em;
+
 }
 
 p2{
   font-family:"cursive";
-  line-height:1.5px;
-  font-size:16px;
+  font-size:1.25em;
 
 }
 
@@ -77,14 +80,14 @@ p2{
   width:200px;
   border-radius: 50%;
   margin-top:150px;
-  margin-left:150px;S
+  margin-left:150px;
 }
 
 span{
   font-weight:550;
 }
  p4{
-   border-bottom: back solid line;
+   border-bottom: black solid line;
 }
 
 #all{
