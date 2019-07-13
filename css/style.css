@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  padding:30px;
+  padding:50px;
 }
 
 
@@ -76,18 +76,25 @@ p2{
 }
 
 .image{
+  float:left;
   margin-right:50px;
   width:200px;
   border-radius: 50%;
   margin-top:150px;
-  margin-left:150px;
+  margin-left:200px;
 }
 
 span{
   font-weight:550;
 }
- p4{
-   border-bottom: black solid line;
+.worlds{
+  text-align: justify;
+  float:right;
+  margin-top:150px;
+  margin-right: 200px;
+  width:60%;
+  font-size: 1.25em;
+
 }
 
 #all{
@@ -140,7 +147,7 @@ input[type=submit]:hover {
 
 }
 
-h3{
+h6{
   text-align:center;
   font-size:2em;
   padding:20;
