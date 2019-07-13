@@ -196,7 +196,7 @@ p3{
 
 #project>div{
   padding-left:20px;
-  justify-content: justfy;
+  justify-content: center;
   height:400px;
   width:700px;
 }
@@ -214,7 +214,7 @@ div .project{
   
 }
 
-#aboute{
+#about{
   background-color:#A5A5A3;
   height: 500px;
   border-radius:200px
