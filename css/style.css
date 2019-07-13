@@ -185,7 +185,7 @@ p3{
   text-align:center;
   font-size:24px;
   margin-left:300px;
-  margin-top: 100px;
+  margin-top: 50px;
   width:60%;
   padding: 10px 10px 20px 10px;
   border: 1px solid #BFBFBF;
@@ -213,3 +213,8 @@ div .project{
   box-shadow: 0px 5px 5px 5px #555;
   
 }
+
+#aboute{
+  background-color:#A5A5A3;
+  height: 500px;
+  border-radius:200px
