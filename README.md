@@ -13,8 +13,8 @@ This webpage is a my landing page Portfolio. It is standalone webpage with infor
 ## Known Bugs
 {It may not be accessed on all devices!}
 ## Technologies Used
-{*HTML for structuring
-*CSS for styling}
+{HTML for structuring
+CSS for styling}
 ## Support and contact details
 {For any inquiries please text on chelseasabinesangwa@gmail.com}
 ### License
