@@ -1,8 +1,8 @@
 
 #  My Portfolio
-#### By **{Sangwa Sabine Chelsea}**
+#### By **Sangwa Sabine Chelsea**
 ## Description
-{his webpage is a my landing page Portfolio. It is standalone webpage with information about me containing also links to some of the projects that I've worked on before and hosted through Github pages, you contact for more information.}
+{This webpage is a my landing page Portfolio. It is standalone webpage with information about me containing also links to some of the projects that I've worked on before and hosted through Github pages, you contact for more information.}
 ## Setup/Installation Requirements
 * Connect to the internet
 * open your browser
