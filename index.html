@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  
+  <title>Chelsea's portfolio</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.4.1.js" ></script>
+<script src="js/srcipt.js"></script>
+
 </head>
 <body>
   
@@ -23,10 +40,10 @@
           </div>
   
   
-        <div class="home">
+        <div class="home" style="font-family: 'Merienda One', cursive; font-size: 1.2em; ">
 
             <h1><strong>Hi, I'm Sangwa Sabine Chelsea</strong></h1><br>
-            <p2>A learner of programing.</p2>
+            <p2 style="font-family: 'Merienda One', cursive; ">A java and Android Developer.</p2>
   
           </div>
         </div>
@@ -34,50 +51,61 @@
 
         <!--the home page.-->
         
-      <div class="container" >
-
+      <div class="container">
         <div id="about">
-            <div class="about" >
-                <div class="me"></div>
-                  <img src="https://res.cloudinary.com/dy90mnrqt/image/upload/v1563045727/4k-wallpaper-adventure-aerial-670061_infojl.jpg" alt="me" class="image">
-            </div>
-    
-            <div class="worlds">
-                <h3 style="text-align: center" ><strong>About Me.</strong></h3>
-    
-              <p4>Programming is an entrepreneur’s very best friend, you can use to compliment your work. this amplify my motivation and passion to study it, Am extroverted,
-                task oriented, dedicated to my duties & responsibilities. who is born and raised in Rwanda.<br>
-                 in my free time, I like reading books; learning new things and  listing to music,am food and drinks entusiastic too. For now I have  html and CSS skill; writting and Communication skills.</p4>
-            </div>
 
+          <div class="me">
+              <div class ="row" style="margin:20px">
+                  <h1 style="font-family: 'Merienda One', cursive; text-align:center;">About me</h1>
+                  <div class = "col-sm-4">
+                    <img src="https://res.cloudinary.com/dy90mnrqt/image/upload/v1563045727/4k-wallpaper-adventure-aerial-670061_infojl.jpg" alt="me" class="image">
+                  </div>
+                  <div class ="col-sm-7" style="margin-top:30px; font-size: 1.2em;">
+                    <p4 style="font-family: 'Open Sans Condensed', sans-serif; font-size:1.4em;">Programming is an entrepreneur’s very best friend, you can use to compliment your work. this amplify my motivation and passion to study it, Am extroverted,
+                        task oriented, dedicated to my duties & responsibilities. who is born and raised in Rwanda.<br>
+                         in my free time, I like reading books; learning new things; listing to music and developing new projects. Am food and drinks entusiastic too.</p4>
+                  </div>
+                </div>
+          </div>
 
+     
         </div>
       </div>
       
-      <div class="projectes">
-          <h2 style="text-align: center; margin-top:60px; font-size: 2em" >PROJECTS. </h2>
-          <div id="projects">
-              <div class="project">
-                  <h3>ELEGANT AFFAIRS.</h3><br><br>
-                  <p3>The Elegant affairs website.<br>
-                    is a website about the wedding decorators,<br> 
-                    It has the information you need about their business,<br>
-                    Language used are HTML and CSS.<br>
-                    Here's a link to the website:<br><br> 
-                    <a href="https://sangwa-c.github.io/elegant-affairs/" style="color:#57572D; background-color:#B1B1B0; border-radius: 40px; width:120px;font-size:0.70em; height:60px;text-decoration: none;">Elegant Affairs.</a>
-                  </p3>
+      <div class="projects">
+          <!-- <h2 style="text-align: center; margin-top:60px; font-size: 2em" >PROJECTS. </h2> -->
+
+          <div class="container" id="portfolio1">
+              <h2 style="text-align:center; font-weight:500; margin-bottom:50px; font-family: 'Merienda One', cursive;" >PROJECTS</h2>
+              <div class="row">
+                <div class="col-sm-3" id="img1">
+                  <img src="IMAGE/delani.png" id="image1" class="image" height="260">
+                  <p id="p1"> <span> Delani Studio</span> <br>
+                    This webpage is for Delani Studio. It is a webpage with the information about Delani as an entity with images showing what they do and how they manage to do and help their clients.<a href="https://sangwa-c.github.io/delani-studio/">Visit Project</a> </p>
+                </div>
+                <div class="col-sm-3"id="img2">
+                  <img src="IMAGE/github.jpg" id="image2" class="image" >
+                  <p id="p2"> <span>Git SEARCH</span> <br>
+                    This is an app that helps the user find information and a Github user.after filling the Github username, names and descriptions of that person's public repositories will be displayed. Also a person can look out for repositories. <a href="https://sangwa-c.github.io/hub/">Visit Project</a> </p>
+          
+                </div>
+                <div class="col-sm-3" id="img3">
+                  <img src="IMAGE/org.png" id="image3" class="image" height="260">
+                  <p id="p3"> <span>Organisation</span> <br>
+                    This is an app that the users to display notices, identify department and add user in the department all those are added into the database to the database. <a href="https://chelrest-api.herokuapp.com/">Visit Project</a> </p>
+                  
+                </div>
+                <div class="col-sm-3" id="img4" >
+                  <img src="IMAGE/images.png" id="image4" class="image" height="260">
+                  <p id="p4"><span>Sangwa Styles</span>  <br>
+                    This is an E-commerce phone application written in the java using Android Studio,
+                    users can buy clothes for both woman and man, ranging from summer clothes to winter clothes.
+                    it suggest fashion tips, plus user will be able to search malls using zip code of a location <a href="https://github.com/Sangwa-C/Sangwa_Sytles/blob/version_4/app-debug.apk">Visit Project</a> </p>
+                  
+                </div>
               </div>
-    
-              <div class="project">
-                <h3>MY WEBSITE</h3><br><br>
-                <p3>This is a website that I created with the objective<br>
-                    of learning the basics of Html and CSS<br>
-                    and the useful of Git and Github<br>
-                    Language used are Html and CSS.<br>
-                    Here's a link to the website:<br><br><br>
-                    <a href="https://sangwa-c.github.io/web-songs/." style="  color:#57572D; background-color:#B1B1B0; border-radius: 40px; width:120px;font-size:0.70em; height:60px;text-decoration: none;">my website</a>
-                </p3>
-              </div>
+            </div>
+       
           
           </div>
 
@@ -86,10 +114,57 @@
         </div>
 
 
+      
+
+   <div class="skills">
+      <div class ="container">
+          <h2 style="text-align: center; font-family: 'Merienda One', cursive; margin-bottom:50px">SKILLS</h2>
+      <div class="row">
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/html.png" height="100">HTML</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/css.png" height="100">CSS</div> 
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/bootstrap.png" height="100">Bootstrap</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/Angular.png" height="100">Angular</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/js.png" height="100">JavaScript</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/java.png" height="100">Java</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;" ><img src="IMAGE/Spark_Java_Logo.png" height="100">Spark</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/Postgresql.svg.png" height="100">Postgresql</div>
+          <div class = col-sm-1  style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/android.png" height="100">Android</div>
+          <div class = col-sm-1 style="margin-right:10px; font-family: 'Merienda One', cursive; text-align: center;"><img src="IMAGE/fire.png" height="100">FireBase</div>
+
+           </div>
+      </div>
+   </div>     
+   
+
+        <!-- <div id="projects">
+            <div class="project">
+                <h3>ELEGANT AFFAIRS.</h3><br><br>
+                <p3>The Elegant affairs website.<br>
+                  is a website about the wedding decorators,<br> 
+                  It has the information you need about their business,<br>
+                  Language used are HTML and CSS.<br>
+                  Here's a link to the website:<br><br> 
+                  <a href="https://sangwa-c.github.io/elegant-affairs/" style="color:#57572D; background-color:#B1B1B0; border-radius: 40px; width:120px;font-size:0.70em; height:60px;text-decoration: none;">Elegant Affairs.</a>
+                </p3>
+            </div>
+  
+            <div class="project">
+              <h3>MY WEBSITE</h3><br><br>
+              <p3>This is a website that I created with the objective<br>
+                  of learning the basics of Html and CSS<br>
+                  and the useful of Git and Github<br>
+                  Language used are Html and CSS.<br>
+                  Here's a link to the website:<br><br><br>
+                  <a href="https://sangwa-c.github.io/web-songs/." style="  color:#57572D; background-color:#B1B1B0; border-radius: 40px; width:120px;font-size:0.70em; height:60px;text-decoration: none;">my website</a>
+              </p3>
+            </div> -->
+
+
+
 
         <!--end of about-->
 
-        <div id="contacts">
+        <!-- <div id="contacts">
           <div>
               <h6><strong>Contacts me</strong></h6>
               <p3>E-mail me at chelseasabinesangwa@gmail.com . However, you can  also use this form below! </p3>
@@ -113,18 +188,15 @@
           </div>
 
         </div>
-    
+     -->
 
 
   <div class="footer">
-      <p>&copy Chelsea 2019</p>
-  </div> 
-
-
+      <p>&copy Chelsea 2019    
+      <a href="https://github.com/Sangwa-C"> <img src="https://img.icons8.com/color/48/000000/github--v1.png" height="40px"> </a>
+      <a href="hhtps://mail.google.com" ><img src="https://img.icons8.com/nolan/64/000000/email.png" height="40px"></a></p>
+  </div>
   
-
-
-
 
 </body>
 </html>
