@@ -74,13 +74,13 @@ li{
 
 
 h1{
-  font-size:2.75em;
+  font-size:2.70em;
 
 }
 
 p2{
   font-family:"cursive";
-  font-size:1.25em;
+  font-size:1.20em;
 
 }
 
@@ -193,7 +193,7 @@ a:hover{
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<    projects      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, */
 
 .image{
-  width:250px;
+  width:260px;
   border-radius: 50%;
 }
 
@@ -208,7 +208,7 @@ a:hover{
 }
 
 #image3{
-  width:100%;
+  width:260px;
   position: relative;
 }
 
@@ -231,9 +231,8 @@ a:hover{
   color: #f2f2f2;
   border: 1px solid#f2f2f2;
   border-radius: 50%;
-  width:78%;
+  width:80%;
   height:90%;
-  font-size: 1.1em;
   padding-right: 20px;
   padding-left: 20px;
   padding-top:4%; 
@@ -243,71 +242,75 @@ a:hover{
 }
 
 #p2{
-  font-size: 1.05em;
   position: absolute;
   top:90px;
-  left:80px;
+  left:79px;
   background-color: transparent;
   display:none;
+  font-size: 0.97em;
   top:15px;
   left:10px;
   background-color: #000000;
   opacity:0.8;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  width:81%;
-  height:90%;
   color: #f2f2f2;
-  padding-top:3%; 
+  border: 1px solid#f2f2f2;
+  border-radius: 50%;
+  width:80%;
+  height:90%;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top:4%; 
   border-width: medium;
-  margin-left: 5%;
+  margin-left: 7%;
   text-align: center;
 }
 
 #p3{
-  font-size: 1.2em;
   position: absolute;
   top:90px;
+  left:79px;
   background-color: transparent;
   display:none;
-  top:5px;
+  font-size: 1em;
+  top:15px;
+  left:10px;
   background-color: #000000;
   opacity:0.8;
-  border: 1px solid #000000;
   color: #f2f2f2;
+  border: 1px solid#f2f2f2;
   border-radius: 50%;
-  width:85%;
-  height:95%;
-  padding-top:1%; 
+  width:80%;
+  height:90%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top:4%; 
   border-width: medium;
-  margin-left: 2%;
+  margin-left: 7%;
   text-align: center;
-  padding-right: 25px;
-  padding-left: 25px;
 }
 
 #p4{
-  font-size: 1.04em;
   position: absolute;
   top:90px;
+  left:79px;
   background-color: transparent;
   display:none;
-  top:5px;
+  font-size: 0.93em;
+  top:15px;
+  left:10px;
   background-color: #000000;
   opacity:0.8;
-  border: 1px solid #000000;
   color: #f2f2f2;
+  border: 1px solid#f2f2f2;
   border-radius: 50%;
-  width:85%;
-  height:95%;
-  padding-top:1%; 
+  width:80%;
+  height:90%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top:4%; 
   border-width: medium;
-  margin-left: 2%;
+  margin-left: 7%;
   text-align: center;
-  padding-right: 25px;
-  padding-left: 25px;
 }
 
 
