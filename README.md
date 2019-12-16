@@ -11,7 +11,7 @@ This webpage is a my landing page Portfolio. It is standalone webpage with infor
 * it is opened
 
 ## Known Bugs
-{It may not be accessed on all devices!}
+It may not be accessed on all devices!
 ## Technologies Used
 * HTML for structuring
 * CSS for styling
